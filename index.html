@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busteki Project Company</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="top">
+        <div class="container">
+            <!-- For the logo, you can use a placeholder or your own image. -->
+            <img src="logo.png" alt="Busteki Logo" class="logo">
+            <nav>
+                <div class="menu-icon" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="mobile-menu" id="mobile-menu-links">
+                    <a href="#about" onclick="toggleMobileMenu()">About</a>
+                    <a href="#services" onclick="toggleMobileMenu()">Services</a>
+                    <a href="https://sautimarket.busteki.co.tz" onclick="toggleMobileMenu()">Sauti.Market</a>
+                    <a href="#education" onclick="toggleMobileMenu()">Education</a>
+                    <a href="#contact" onclick="toggleMobileMenu()">Contact</a>
+                </div>
+                <a class="desktop-link" href="#about">About</a>
+                <a class="desktop-link" href="#services">Services</a>
+                <a class="desktop-link" href="https://sautimarket.busteki.co.tz">Sauti.Market</a>
+                <a class="desktop-link" href="#education">Education</a>
+                <a class="desktop-link" href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div id="bg-slider" class="bg-cover bg-center transition-opacity duration-1000 opacity-100"></div>
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>We Deliver Innovation</h1>
+            <p>
+                Empowering your business with the future of software, marketing, and tech transformation.
+            </p>
+            <a href="#contact" class="collaborate-btn">Let’s Collaborate</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container content">
+            <h2>Who We Are</h2>
+            <p>
+                At Busteki, we ignite the spark that draws attention and inspires growth. We leave lasting impressions on your brand through tailored innovations, strategic marketing, and intelligent software solutions. We believe in a love affair between your brand and its audience.
+            </p>
+            <div class="values-grid">
+                <div class="value-item">
+                    <i class="fas fa-lightbulb icon"></i>
+                    <h3>Innovation</h3>
+                    <p>We embrace new ideas and push boundaries to create unique solutions that stand out.</p>
+                </div>
+                <div class="value-item">
+                    <i class="fas fa-handshake icon"></i>
+                    <h3>Collaboration</h3>
+                    <p>We believe in the power of working together, building strong relationships with our clients.</p>
+                </div>
+                <div class="value-item">
+                    <i class="fas fa-seedling icon"></i>
+                    <h3>Impact</h3>
+                    <p>Our work is driven by a desire to create a positive and lasting impact on businesses and communities.</p>
+                </div>
+                <div class="value-item">
+                    <i class="fas fa-award icon"></i>
+                    <h3>Quality</h3>
+                    <p>We are committed to delivering high-quality work that exceeds expectations every time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Our Core Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-rocket service-icon"></i>
+                    <h3>Incubation & Digital Business</h3>
+                    <p>
+                        We provide entrepreneurship training to SMEs, helping them turn innovative ideas into successful digital businesses.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-bullhorn service-icon"></i>
+                    <h3>Innovative Marketing</h3>
+                    <p>
+                        Strategies that amplify your message and connect to your audience, including our groundbreaking Sauti.Market platform.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-laptop-code service-icon"></i>
+                    <h3>Software Solutions</h3>
+                    <p>
+                        Robust custom applications and products built to scale with your business goals.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-chart-line service-icon"></i>
+                    <h3>Data Analytics</h3>
+                    <p>
+                        Turn your data into actionable insights that drive business growth and informed decision-making.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sauti.Market Section -->
+    <section id="sauti-market" class="section">
+        <div class="container flex-container">
+            <div class="content">
+                <h2>Introducing Sauti.Market</h2>
+                <p>
+                    Sauti.Market is a youth-centered initiative that uses voice-based talents like singing, storytelling, and public speaking to inspire economic growth and financial literacy.
+                </p>
+                <p>
+                    The platform provides tools and challenges that equip participants to turn their voices into opportunities.
+                </p>
+                <a href="https://sautimarket.busteki.co.tz" class="sauti-btn">Visit Sauti.Market</a>
+            </div>
+            <!-- The image size here has been updated to match the original request. -->
+            <img id="gb-slider" src="https://placehold.co/800x600/d1d5db/4b5563?text=Sauti+Market+1" alt="Sauti Market">
+        </div>
+    </section>
+
+        <!-- Founder Section -->
+    <section class="founder-section">
+      <div class="container">
+        <h2 class="main-heading">
+          Meet the Visionary Behind <span class="highlight-red">Busteki</span>
+        </h2>
+        <p class="intro">
+          Busteki was born from a bold vision to empower businesses and unlock human potential through innovative tech. At its core is a leader who lives this mission daily.
+        </p>
+
+        <div class="founder-wrapper">
+          <img src="boss.jpg" alt="Founder of Busteki" class="founder-photo" />
+          <div class="founder-details">
+            <h3 class="founder-name">Jastin John Maile</h3>
+            <p class="founder-title">Founder & Business Tech Coach</p>
+            <p class="founder-bio">
+            <span class="short-text">
+                Jastin John Maile is a business technology coach and the visionary founder of Busteki. He currently serves as Partnership and Outreach Coordinator, dedicated coach and trainer at the Institute of Accountancy Arusha (IAA)...
+            </span>
+            <span class="full-text" style="display: none;">
+                Jastin John Maile is a business technology coach and the visionary founder of Busteki. He currently serves as Partnership and Outreach Coordinator, dedicated coach and trainer at the Institute of Accountancy Arusha (IAA), where he mentors startups and SMEs in achieving long-term business sustainability through digital innovation.
+                <br><br>
+                A passionate trainer of young students and youth entrepreneurs, Jastin specializes in building the entrepreneurial mindset required to thrive in the modern tech economy. His journey is rooted in a mission to help young innovators, dreamers, and founders scale impactful ideas into thriving ventures.
+                <br><br>
+                His strengths lie in inspiring digital growth, nurturing innovation, and aligning business with modern technology. Through Busteki and his community efforts, he continues to be a beacon of practical knowledge, motivation, and transformation across East Africa.
+                <br><br>
+                In addition to his entrepreneurial leadership, Jastin also serves as a Climate Ambassador under Digital Opportunity Trust (DOT), where he mentors and empowers youth climate champions across four African countries. His work in climate action emphasizes sustainability, innovation, and youth leadership — promoting a greener, more resilient future through education and grassroots impact.
+            </span>
+            </p>
+
+            <button id="toggleBio" class="read-more-btn">Read More</button>
+
+          </div>
+        </div>
+
+        <h4 class="tagline">"Inspiring Innovation. Empowering Entrepreneurs."</h4>
+      </div>
+    </section>
+
+
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Calling All Institutions</h2>
+            <p>
+                We invite educational institutions to partner with Busteki Project and unlock ICT industrial training for your students. We offer custom programs tailored to your institution’s learning needs.
+            </p>
+            <a href="#contact" class="partnership-btn">Explore Partnership</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope fa-icon"></i> Email: <a href="mailto:info@busteki.co.tz">info@busteki.co.tz</a></p>
+                <p><i class="fas fa-phone fa-icon"></i> Phone: <a href="tel:+255749682106">+255 749 682 106</a></p>
+                <p><i class="fab fa-instagram fa-icon"></i> Instagram: <a href="https://instagram.com/busteki_project_company">@busteki_project_company</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Busteki Project Company</p>
+            <div class="social-links">
+                <a href="https://instagram.com/busteki_project_company"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/jastin-maile-a31345244/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Sliders and Mobile Menu -->
+    <script>
+        // Toggle mobile menu
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu-links');
+            menu.classList.toggle('active');
+        }
+
+        // Hero background slider
+        const heroImages = [
+            'slide01/1.PNG',
+            'slide01/2.PNG',
+            'slide01/3.PNG',
+            'slide01/4.PNG',
+            'slide01/5.PNG'
+        ];
+        let heroIndex = 0;
+        const heroSlider = document.getElementById('bg-slider');
+
+        function changeHeroBackground() {
+            heroSlider.style.backgroundImage = `url('${heroImages[heroIndex]}')`;
+            heroIndex = (heroIndex + 1) % heroImages.length;
+        }
+
+        changeHeroBackground();
+        setInterval(changeHeroBackground, 10000);
+
+        // Sauti.Market image slider
+        const sautiImages = [
+            'slide02/saut.PNG'
+        ];
+        let sautiIndex = 0;
+        const sautiSlider = document.getElementById('gb-slider');
+
+        function changeSautiBackground() {
+            sautiSlider.src = sautiImages[sautiIndex];
+            sautiIndex = (sautiIndex + 1) % sautiImages.length;
+        }
+
+        changeSautiBackground();
+        setInterval(changeSautiBackground, 10000);
+    </script>
+
+   <script>
+        document.getElementById("toggleBio").addEventListener("click", function() {
+            const shortText = document.querySelector(".short-text");
+            const fullText = document.querySelector(".full-text");
+
+            if (fullText.style.display === "none") {
+                fullText.style.display = "inline";
+                shortText.style.display = "none";
+                this.textContent = "Read Less";
+            } else {
+                fullText.style.display = "none";
+                shortText.style.display = "inline";
+                this.textContent = "Read More";
+            }
+        });
+    </script>
+ 
+
+</body>
+</html>
