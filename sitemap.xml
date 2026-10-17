@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://busteki.co.tz/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://busteki.co.tz/logo.png</image:loc>
+      <image:title>Busteki Project Company Logo</image:title>
+      <image:caption>Busteki - Business Technology, Software &amp; SME Incubation in Tanzania</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://busteki.co.tz/boss.jpg</image:loc>
+      <image:title>Jastin John Maile - Founder of Busteki</image:title>
+      <image:caption>Business Technology Coach and Founder of Busteki Project Company</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://busteki.co.tz/#about</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://busteki.co.tz/#services</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://busteki.co.tz/#sauti-market</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://busteki.co.tz/#founder</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://busteki.co.tz/#education</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://busteki.co.tz/#contact</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

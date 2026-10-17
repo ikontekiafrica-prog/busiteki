@@ -1,0 +1,6 @@
+# Robots.txt for Busteki Project Company (https://busteki.co.tz)
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://busteki.co.tz/sitemap.xml
